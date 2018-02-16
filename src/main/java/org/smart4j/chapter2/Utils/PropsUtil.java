@@ -1,6 +1,6 @@
 package org.smart4j.chapter2.Utils;
 
-import com.sun.java.swing.plaf.windows.TMSchema;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
