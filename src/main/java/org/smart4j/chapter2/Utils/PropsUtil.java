@@ -75,7 +75,7 @@ public class PropsUtil {
     private static int getInt(Properties props, String key, int defaultValue) {
         int value = defaultValue;
         if(props.contains(key)){
-            value = CastUtil.cast(props.getProperty(key));
+            value = CastUtil.castInt(props.getProperty(key));
         }
         return  value;
     }
